@@ -1,0 +1,91 @@
+main {
+    max-width: 1920px;
+    /* max-height: 1080px; */
+    width: 100vw;
+    height: 100vh;
+    
+    /* position: relative; */
+    background-color: red;
+    /* padding: 20px; */
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+#head {
+    display: flex;
+    align-items: center;
+    gap: 61px;
+}
+#head svg {
+    position: absolute;
+    top: 45px;
+    left: 48px;
+}
+#head-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+#head-title h1 {
+    color: #1A1A1A;
+    font-size: 24px;
+    font-weight: 700;
+}
+#head-title span {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-weight: 400;
+}
+hr {
+    width: 798px;
+    border: solid #1A1A1A 1px;
+    margin-bottom: 106px;
+}
+#name-lastname {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#name-box, #lastname-box {
+    display: flex;
+    flex-direction: column;
+}
+#name {
+
+}
+#lastname {
+
+}
+#input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form {
+    width: 1098px;
+    height: 100%;
+    padding: 47px 150px;
+    background-color: rgb(63, 167, 167);
+}
+section {
+    width: 822px;
+    height: 100%;
+    background-color: blueviolet;
+}
