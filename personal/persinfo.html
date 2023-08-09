@@ -29,23 +29,38 @@
                 <div id="name-box">
                     <label for="name">სახელი</label>
                     <input type="text" id="name">
-                    <p>error message</p>
+                    <p class="error">მინიმუმ 2 ასო, ქართული ასოები</p>
                 </div>
                 <div id="lastname-box">
                     <label for="lastname">გვარი</label>
                     <input type="text" id="lastname">
-                    <p>error message</p>
+                    <p class="error">მინიმუმ 2 ასო, ქართული ასოები</p>
                 </div>
             </div>
             <div id="input-box">
-                <input type="file">
-                <input type="text">
-                <input type="email">
-                <input type="text">
+                <div id="file-upload">
+                    <label id="upload-text">პირადი ფოტოს ატვირთვა</label>
+                    <label id="upload-btn" for="file">ატვირთვა</label>
+                    <input type="file" id="file">
+                </div>
+                <div class="about-info">
+                    <label for="about-my">ჩემ შესახებ (არასავალდებულო)</label>
+                    <input type="text" id="about-my">
+                </div>
+                <div class="contact email">
+                    <label>ელ.ფოსტა</label>
+                    <input type="email">
+                    <p class="error">უნდა მთავრდებოდეს @redberry.ge-ით</p>
+                </div>
+                <div class="contact phone">
+                    <label>მობილურის ნომერი</label>
+                    <input type="text">
+                    <p class="error">უნდა აკმაყოფილებდეს ქართული მობილურის ნომრის ფორმატს</p>
+                </div>
             </div>
-            
+            <button id="next-btn">ᲨᲔᲛᲓᲔᲒᲘ</button>
         </form>
-        <section>rogor xar</section>
+        <section>Hello World</section>
     </main>
 </body>
 
