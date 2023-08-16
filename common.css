@@ -2,4 +2,141 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica Neue;
+}
+/*---------------------------------google fonts-----------------------------------*/
+@font-face {
+    font-family: Helvetica Neue;
+    src: url(./fonts/static/PlusJakartaSans-Bold.ttf),
+        url(./fonts/static/PlusJakartaSans-BoldItalic.ttf),
+        url(./fonts/static/PlusJakartaSans-ExtraBold.ttf),
+        url(./fonts/static/PlusJakartaSans-ExtraBoldItalic.ttf),
+        url(./fonts/static/PlusJakartaSans-ExtraLight.ttf),
+        url(./fonts/static/PlusJakartaSans-ExtraLightItalic.ttf),
+        url(./fonts/static/PlusJakartaSans-Italic.ttf),
+        url(./fonts/static/PlusJakartaSans-Light.ttf),
+        url(./fonts/static/PlusJakartaSans-LightItalic.ttf),
+        url(./fonts/static/PlusJakartaSans-Medium.ttf),
+        url(./fonts/static/PlusJakartaSans-MediumItalic.ttf),
+        url(./fonts/static/PlusJakartaSans-Regular.ttf),
+        url(./fonts/static/PlusJakartaSans-SemiBold.ttf),
+        url(./fonts/static/PlusJakartaSans-SemiBoldItalic.ttf);
+}
+body {
+    background-color: #F9F9F9;
+}
+/*-----------------------------------main-----------------------------------------*/
+main {
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+/*------------------------------------header--------------------------------------*/
+#head {
+    display: flex;
+    align-items: center;
+    gap: 61px;
+}
+#head svg {
+    position: absolute;
+    top: 45px;
+    left: 48px;
+    cursor: pointer;
+}
+#head-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+#head-title h1 {
+    color: #1A1A1A;
+    font-size: 24px;
+    font-weight: 700;
+}
+#head-title span {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-weight: 400;
+}
+hr {
+    width: 798px;
+    border: solid #1A1A1A 1px;
+    margin-bottom: 106px;
+}
+/*-----------------------------------next btn-------------------------------------*/
+#next-btn {
+    position: relative;
+    width: 151px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #6B40E3;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    border: none;
+    float: right;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+/*-----------------------------------sections------------------------------------*/
+#left {
+    max-width: 1098px;
+    height: 100%;
+    padding: 47px 150px;
+    background-color: #F9F9F9;
+}
+#right {
+    width: 822px;
+    height: 1080px;
+    background-color: #FFF;
+    padding: 48px 75px 44px 80px;
+}
+#person-info-display {
+    display: flex;
+    justify-content: space-between;
+}
+#name-lastname-display {
+    font-size: 34px;
+}
+#about-display {
+    font-size: 18px;
+}
+#name-lastname-display, #about-display {
+    color: #F93B1D;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+#email-display, #phone-display {
+    color: #1A1A1A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#phone-display {
+    margin-bottom: 34px;
+}
+#about-info-display {
+    color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+text-transform: lowercase;
 }
