@@ -27,14 +27,27 @@
             <hr>
             <div id="name-lastname">
                 <div id="name-box">
-                    <label for="name">სახელი</label>
-                    <input type="text" id="name" name="name">
-                    <p class="error errorName"></p>
+                    <div>
+                        <label for="name">სახელი</label>
+                        <input type="text" id="name" name="name">
+                        <p class="error errorName">მინიმუმ 2 ასო, ქართული ასოები</p>
+                    </div>
+                    <div class="validation-box">
+                        <img src="../img/akar-icons_circle-check-fill.svg" alt="validation ok icone" class="valOkIcone" >
+                        <img src="../img/ph_warning-fill.svg" alt="validation false icone" class="valNoIcon">
+                    </div>
+                    
                 </div>
                 <div id="lastname-box">
-                    <label for="lastname">გვარი</label>
-                    <input type="text" id="lastname" name="lastname">
-                    <p class="error errorLastName"></p>
+                    <div>
+                        <label for="lastname">გვარი</label>
+                        <input type="text" id="lastname" name="lastname">
+                        <p class="error errorLastName">მინიმუმ 2 ასო, ქართული ასოები</p>
+                    </div>
+                    <div class="validation-box">
+                        <img src="../img/akar-icons_circle-check-fill.svg" alt="validation ok icone" class="valOkIcone" >
+                        <img src="../img/ph_warning-fill.svg" alt="validation false icone" class="valNoIcon">
+                    </div>
                 </div>
             </div>
             <div id="input-box">
@@ -53,14 +66,27 @@
                     <input type="text" id="aboutme" name="aboutme">
                 </div>
                 <div class="contact email">
-                    <label>ელ.ფოსტა</label>
-                    <input type="email" name="email" id="user-email">
-                    <p class="error">უნდა მთავრდებოდეს @redberry.ge-ით</p>
+                    <div>
+                        <label>ელ.ფოსტა</label>
+                        <input type="email" name="email" id="user-email">
+                        <p class="error">უნდა მთავრდებოდეს @redberry.ge-ით</p>    
+                    </div>
+                    <div class="validation-box valCont-box">
+                        <img src="../img/akar-icons_circle-check-fill.svg" alt="validation ok icone" class="valOkIcone" >
+                        <img src="../img/ph_warning-fill.svg" alt="validation false icone" class="valNoIcon">
+                    </div>
+                    
                 </div>
                 <div class="contact phone">
-                    <label>მობილურის ნომერი</label>
-                    <input type="text" name="phonenumber" id="phonenumber">
-                    <p class="error">უნდა აკმაყოფილებდეს ქართული მობილურის ნომრის ფორმატს</p>
+                    <div>
+                        <label>მობილურის ნომერი</label>
+                        <input type="text" name="phonenumber" id="phonenumber">
+                        <p class="error">უნდა აკმაყოფილებდეს ქართული მობილურის ნომრის ფორმატს</p>
+                    </div>
+                    <div class="validation-box valCont-box">
+                        <img src="../img/akar-icons_circle-check-fill.svg" alt="validation ok icone" class="valOkIcone" >
+                        <img src="../img/ph_warning-fill.svg" alt="validation false icone" class="valNoIcon">
+                    </div>
                 </div>
             </div>
             <button id="next-btn">ᲨᲔᲛᲓᲔᲒᲘ</button>

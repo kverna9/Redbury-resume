@@ -2,14 +2,16 @@
 /*-----------------------------------inputs---------------------------------------*/
 #name-lastname {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
+    gap: 56px;
 }
 #name-box, #lastname-box {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     height: 122px;
     margin-bottom: 46px;
+    position: relative;
 }
 #name, #lastname {
     display: flex;
@@ -30,6 +32,24 @@
     border: 1px solid #BCBCBC;
     background: #FFFFFF;
 }
+.contact {
+    position: relative;
+}
+/*---------------------------------validation------------------------------------*/
+.validation-box {
+    position: absolute;
+    left: 330px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+.valCont-box {
+    left: 758px;
+    top: 42px;
+}
+
+
+/*----------------------------------inputs----------------------------------------*/
 #name-lastname label {
     color: #000;
     font-size: 16px;
